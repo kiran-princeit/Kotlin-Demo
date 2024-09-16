@@ -1,0 +1,51 @@
+package com.example.kotlindemo.Pagination.model
+
+data class Scheme(val id: Int,
+                  val source: String,
+                  val name: String,
+                  val sector: String,
+                  val government: String,
+                  val eligible_beneficiaries: String,
+                  val requirements: String,
+                  val benefits: String,
+                  val how_to_apply: String,
+                  val profession: String,
+                  val nationality: String,
+                  val gender: String,
+                  val social_category: List<String>,
+                  val bpl: String,
+                  val maximum_income: String,
+                  val maximum_monthly_income: String,
+                  val min_age: Int,
+                  val max_age: Int,
+                  val age_relaxation: String,
+                  val qualification: Int,
+                  val employed: String,
+                  val domicile: String,
+                  val marital_status: String,
+                  val parents_profession: String,
+                  val person_with_disabilities: String,
+                  val current_student: String,
+                  val min_marks_in_previous_examination: String,
+                  val religion: String,
+                  val isDeleted: Boolean,
+                  val isLatest: Boolean,
+                  val isPopular: Boolean,
+                  val isHtml: Boolean,
+                  val state_url: String,
+                  val sector_url: String
+)
+
+
+data class ResponseData(val current_page:Int,
+                        val data:List<Scheme>,
+                        val from:Int,
+                        val last_page:Int,
+                        val next_page_url:String,
+                        val per_page:Int,
+                        val prev_page_url:String,
+                        val to:Int,
+                        val total:Int,
+
+
+)

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kotlin Demo</string>
+    <string name="java_fragment">જાવા ટુકડો</string>
+    <string name="listview">લિસ્ટવ્યુ</string>
+    <string name="webview">વેબવ્યુ</string>
+    <string name="tablayout">ટેબલેઆઉટ</string>
+    <string name="seekbar">સીકબાર</string>
+    <string name="alertdialog">AlertDialog</string>
+    <string name="context_menu">સંદર્ભ મેનૂ</string>
+    <string name="android_fragment">એન્ડ્રોઇડ ટુકડો</string>
+</resources>
